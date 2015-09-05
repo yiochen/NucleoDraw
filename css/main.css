@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 90vh;
+    background: yellow;
+}
+
+footer {
+    position: relative;
+    height: 10vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+}
+
+#drop_zone {
+    background: honeydew;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px pink;
+}
+
+#heart {
+    color: red;
+}
+
+canvas[resize] {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
